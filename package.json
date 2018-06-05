@@ -1,0 +1,21 @@
+{
+  "name": "catch_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node_modules/.bin/webpack",
+    "scss": "node-sass --watch src/scss -o src/css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.10.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
+    "slick-carousel": "^1.8.1"
+  }
+}

@@ -1,0 +1,51 @@
+//colors for front end test theme
+
+$white: #ffffff;
+$black: #000000;
+$theme-light-green: #76e691;
+$theme-green: #53b16a;
+$val-red: #f26c4f;
+$val-green: #53b16a;
+$link-color:#008fff;
+$grey:#d7dadc;
+$light-grey:#697b95;
+
+// Disabled States
+$disabled-color: #d7dadc;
+$disabled-color-inverted: #ccc;
+
+// Main Colors
+// ===========
+$font-color: $black;
+
+// Body
+$foreground-color: $black;
+$background-color: $white;
+
+// Buttons
+$button-color: $theme-light-green;
+$button-color-hover: $theme-green;
+$button-color-disabled: $disabled-color;
+
+$button-text-color: $black;
+$button-text-color-hover: $black;
+$button-text-color-disabled: $white;
+
+$button-border-color: $button-color;
+$button-border-color-hover: $button-color-hover;
+$button-border-color-disabled: $button-color-disabled;
+
+// Validation States
+$validation-error: $val-red;
+$validation-success: $val-green;
+
+//component titles
+$title-color: $black;
+$title-color-inverted: $white;
+
+$body-color: $black;
+$body-color-inverted: $white;
+$link-color:$link-color;
+
+$footer-text-color:$light-grey;
+

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <title>Front end test of sorts</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	    <!-- loading compilied css -->	
+	    <link href="css/compiledGoodness.css" type="text/css" rel="stylesheet">
+
+	    <!-- loading jquery -->
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+	    <!-- loading font awesome -->	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<!-- loading carousel -->	
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+
+	        
+	</head>
+	<body>
+		<div class="page__wrapper">
+			<div class="page__title">
+				<h1>Front end test of sorts</h1>
+			</div>
+
+			<div class="page__body">
+				<div class="block">
+					<form class="form__wrapper">
+						<h3 class="form__title">Form Title</h3>
+							<input class="form__input" type="text" placeholder="First name" name="First name">
+							<input class="form__input" type="text" placeholder="Last name" name="Last name">
+	  						<input class="form__input" type="text" placeholder="Email address" name="Email address">
+	  						<select class="form__input form__input--select" id="City">
+							    <option class="form-option" value="hide">-- City --</option>
+							    <option class="form-option" value="Wellington">Wellington</option>
+							    <option class="form-option" value="Auckland">Auckland</option>
+							    <option class="form-option" value="Christchurch">Christchurch</option>
+							</select> 
+					</form>
+				</div>
+				<div class="block">
+					<div class="form__btn-wrap">
+						<button class="btn btn__generic form__btn-wrap--submit" type="button" onclick="alert('Submit complete')">Submit</button>
+					</div>
+				</div>
+				<div class="block spacer">
+					<div class="component__left">
+						<div class="component__inner">
+							<div class="component__photo">
+							  <img class="component__photo__img" alt="Graphic of the mountains" src="assets/c-05-text-n-graphic.png">
+								  <h4 class="component__photo__title">Pink &amp; Purple Sunset</h4>
+								  <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.</p>
+								  <a href="#">Go to the sunset</a>
+							</div>
+						</div>
+					</div>
+					<div class="component__right">
+						<div class="component__inner">
+							<div class="component__photo">
+							  <img class="component__photo__img" alt="Graphic of palm trees" src="assets/c-10-text-n-graphic.png">
+								  <h4 class="component__photo__title">Sublime Trees</h4>
+								  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis lacus vel augue laoreet…</p>
+								  <a href="#">View some more</a>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="block">
+					<div class="block__inner">
+						<div class="carousel insideslideshow slider autoplay slickplay">
+						    <div class="carousel__item" aria-label="Graphic of mountains by a lake" style="background-image: url('assets/c-15-carousel-1.png');"></div>
+						    <div class="carousel__item" aria-label="Graphic of mountains by a lake" style="background-image: url('assets/c-15-carousel-2.png'); "></div>
+						    <div class="carousel__item" aria-label="Graphic of a lake" style="background-image: url('assets/c-15-carousel-3.png'); "></div>
+						    <div class="carousel__item" aria-label="Graphic of mountains by a lake" style="background-image: url('assets/c-15-carousel-1.png');"></div>
+						     <div class="carousel__item" aria-label="Graphic of mountains by a lake" style="background-image: url('assets/c-15-carousel-2.png'); "></div>
+						    <div class="carousel__item" aria-label="Graphic of a lake" style="background-image: url('assets/c-15-carousel-3.png'); "></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="page-footer">
+				<div class="block">
+					<div class="block__inner">
+					<div class="component__right">
+						<div class="contact component__inner">
+							<div class="contact__info">
+								<h4 class="contact__header">Main Office</h4>
+								<p>735-421-6378</p>
+								<p>Frederikfurt</p>
+								<p>Jamaica</p>
+							</div>
+							<div class="contact__info">
+								<h4 class="contact__header">Contact</h4>
+								<p>6235 Thalia Terrace Apt. 695</p>
+								<a href="">myname@gmail.com</a>
+							</div>
+						</div>	
+					</div>
+						<div class="component__left">
+						<div class="component__inner">
+							<div class="icon__wrapper">
+							<div class="icon__wrapper__inner">
+								<div class="icon icon--facebook" aria-label="link to facebook"></div>
+								<div class="icon icon--instagram" aria-label="link to instagram"></div>
+								<div class="icon icon--youtube" aria-label="link to youtube"></div>
+								</div>
+							</div>
+							<p class="page-footer__summary">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+						</div>
+					</div>
+					
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+	<!-- <script src="bundle.js"></script> -->
+	<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+	<script src="js/carousel.js"></script>
+</html>
